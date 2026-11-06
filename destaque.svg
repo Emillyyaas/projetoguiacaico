@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#bfe0ff"/>
+  <circle cx="700" cy="60" r="35" fill="#ffe08a"/>
+  <rect y="220" width="800" height="80" fill="#d9c5a0"/>
+  <rect x="300" y="110" width="200" height="110" fill="#f5f1e8"/>
+  <rect x="300" y="70" width="55" height="150" fill="#ebe5d6"/>
+  <rect x="445" y="70" width="55" height="150" fill="#ebe5d6"/>
+  <polygon points="300,70 327,35 355,70" fill="#1d4e89"/>
+  <polygon points="445,70 472,35 500,70" fill="#1d4e89"/>
+  <polygon points="355,110 400,75 445,110" fill="#1d4e89"/>
+  <rect x="385" y="160" width="30" height="60" fill="#0f2f57"/>
+  <text x="400" y="270" font-size="26" text-anchor="middle" fill="#0f2f57" font-family="Arial">Caicó - RN</text>
+</svg>

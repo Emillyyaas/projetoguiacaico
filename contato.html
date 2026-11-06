@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formulário para enviar sugestões sobre o guia da cidade.">
+  <title>Contato - Guia de Caicó - RN</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Guia de Caicó - RN</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="turismo.html">Turismo</a></li>
+        <li><a href="gastronomia.html">Gastronomia</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="horarios.html">Horários</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <main>
+      <h2>Envie sua sugestão</h2>
+      <p>Tem uma dica de lugar ou encontrou algo errado? Preencha o formulário.</p>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Seus dados</legend>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+        </fieldset>
+
+        <fieldset>
+          <legend>Sua sugestão</legend>
+          <label for="tipo">Tipo de sugestão:</label>
+          <select id="tipo" name="tipo">
+            <option value="turismo">Turismo</option>
+            <option value="gastronomia">Gastronomia</option>
+            <option value="servicos">Serviços</option>
+            <option value="outro">Outro</option>
+          </select>
+
+          <p>Como você conheceu o guia?</p>
+          <input type="radio" id="amigos" name="origem" value="amigos">
+          <label for="amigos" class="inline">Amigos</label>
+          <input type="radio" id="escola" name="origem" value="escola">
+          <label for="escola" class="inline">Escola</label>
+          <input type="radio" id="internet" name="origem" value="internet">
+          <label for="internet" class="inline">Internet</label>
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+
+          <p>
+            <input type="checkbox" id="resposta" name="resposta">
+            <label for="resposta" class="inline">Quero receber uma resposta por e-mail</label>
+          </p>
+        </fieldset>
+
+        <button type="submit" class="botao">Enviar</button>
+      </form>
+    </main>
+
+    <aside>
+      <h2>Atenção</h2>
+      <p>Este formulário é apenas um exemplo e não envia os dados para nenhum servidor.</p>
+    </aside>
+  </div>
+
+  <footer>
+    <p>Guia de Caicó - RN - <a href="../relatorio.html">Relatório do projeto</a></p>
+  </footer>
+</body>
+</html>
